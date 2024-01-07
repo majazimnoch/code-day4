@@ -13,6 +13,7 @@ The let variable keeps track of whether the image is currently visible.
 Button got an EventListener attached to the id. When the button is clicked, the function is executed.
 The if-else statement is used to toggle the background between an image and an empty screen.
 imageVisible = !imageVisible; -> This line toggles the value of imageVisible on each click, ensuring that the background alternates between the image and an empty screen.
+I used const and let. The use of let is appropriate here because imageVisible needs to be reassigned (toggled) based on the button click, while 'Audio' object does not need to be reassigned.
 
 ## Demo
 Click <a href="https://playful-semifreddo-9ec36e.netlify.app/" target="a_blank">here</a>.
